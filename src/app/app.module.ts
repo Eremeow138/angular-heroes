@@ -9,6 +9,7 @@ import {
   HeroDetailComponent,
   MessagesComponent,
   DashboardComponent,
+  HeroSearchComponent,
 } from './components';
 import { HeroService, InMemoryDataService, MessageService } from './services';
 import { AppRoutingModule } from './app-routing.module';
@@ -20,6 +21,7 @@ import { AppRoutingModule } from './app-routing.module';
     HeroDetailComponent,
     MessagesComponent,
     DashboardComponent,
+    HeroSearchComponent,
   ],
   imports: [
     BrowserModule,
